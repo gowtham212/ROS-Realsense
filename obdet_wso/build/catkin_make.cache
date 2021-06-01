@@ -1,0 +1,2 @@
+object_detection_2d:vision_opencv/cv_bridge:vision_opencv/image_geometry:vision_opencv/opencv_tests:vision_opencv/vision_opencv
+-DCATKIN_DEVEL_PREFIX=/home/ialab/obdet_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ialab/obdet_ws/install -G Unix Makefiles

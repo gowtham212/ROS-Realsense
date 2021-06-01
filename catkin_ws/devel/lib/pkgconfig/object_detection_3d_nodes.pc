@@ -1,0 +1,8 @@
+prefix=/home/bit/catkin_ws/devel
+
+Name: object_detection_3d_nodes
+Description: Description of object_detection_3d_nodes
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

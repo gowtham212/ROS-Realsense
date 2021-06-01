@@ -1,0 +1,8 @@
+prefix=/home/bit/catkin_ws/devel
+
+Name: object_detection
+Description: Description of object_detection
+Version: 0.0.0
+Cflags: -I/home/bit/catkin_ws/src/ros_object_recognition/src/object_detection/include
+Libs: -L${prefix}/lib 
+Requires: 

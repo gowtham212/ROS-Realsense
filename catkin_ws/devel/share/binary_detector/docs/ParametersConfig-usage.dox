@@ -1,0 +1,9 @@
+\subsubsection usage Usage
+\verbatim
+<node name="binary_detector" pkg="binary_detector" type="binary_detector">
+  <param name="object_name" type="str" value="" />
+  <param name="min_length_fraction" type="double" value="0.05" />
+  <param name="max_length_fraction" type="double" value="0.4" />
+</node>
+\endverbatim
+

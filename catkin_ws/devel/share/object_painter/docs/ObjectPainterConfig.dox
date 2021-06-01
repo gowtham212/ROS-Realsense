@@ -1,0 +1,6 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~max_age_s" : \b [double] Only objects up to this age (in seconds) are drawn min: 0.0, default: 0.3, max: 10.0
+

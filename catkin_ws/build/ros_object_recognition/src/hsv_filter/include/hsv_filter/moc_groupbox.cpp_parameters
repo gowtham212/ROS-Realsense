@@ -1,0 +1,9 @@
+-I/home/bit/catkin_ws/src/ros_object_recognition/src/hsv_filter
+-I/home/bit/catkin_ws/build/ros_object_recognition/src/hsv_filter
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="hsv_filter"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/bit/catkin_ws/build/ros_object_recognition/src/hsv_filter/include/hsv_filter/moc_groupbox.cpp
+/home/bit/catkin_ws/src/ros_object_recognition/src/hsv_filter/include/hsv_filter/groupbox.h

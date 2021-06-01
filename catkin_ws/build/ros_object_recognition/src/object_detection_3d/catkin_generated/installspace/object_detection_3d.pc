@@ -1,0 +1,8 @@
+prefix=/home/bit/catkin_ws/install
+
+Name: object_detection_3d
+Description: Description of object_detection_3d
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lobject_detection_3d
+Requires: object_detection_3d_msgs pcl_conversions pcl_ros roscpp sensor_msgs

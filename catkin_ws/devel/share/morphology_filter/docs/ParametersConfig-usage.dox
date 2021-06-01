@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="morphology_filter" pkg="morphology_filter" type="morphology_filter">
+  <param name="operation" type="int" value="0" />
+  <param name="num_iterations" type="int" value="1" />
+</node>
+\endverbatim
+

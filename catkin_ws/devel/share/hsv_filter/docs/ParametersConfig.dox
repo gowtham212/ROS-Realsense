@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~h_min" : \b [int] Areas with lower h-values are filtered out min: 0, default: 0, max: 179
+- \b "~h_max" : \b [int] Areas with lower h-values are filtered out min: 0, default: 179, max: 179
+- \b "~s_min" : \b [int] Areas with lower s-values are filtered out min: 0, default: 0, max: 255
+- \b "~s_max" : \b [int] Areas with lower s-values are filtered out min: 0, default: 255, max: 255
+- \b "~v_min" : \b [int] Areas with lower v-values are filtered out min: 0, default: 0, max: 255
+- \b "~v_max" : \b [int] Areas with lower v-values are filtered out min: 0, default: 255, max: 255
+

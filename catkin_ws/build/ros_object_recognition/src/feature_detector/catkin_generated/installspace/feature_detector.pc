@@ -1,0 +1,8 @@
+prefix=/home/bit/catkin_ws/install
+
+Name: feature_detector
+Description: Description of feature_detector
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lfeature_detector
+Requires: cv_bridge dynamic_reconfigure geometry_msgs object_detection object_detection_2d object_detection_2d_msgs roscpp

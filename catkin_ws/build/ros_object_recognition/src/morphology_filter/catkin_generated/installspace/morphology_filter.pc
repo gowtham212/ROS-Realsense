@@ -1,0 +1,8 @@
+prefix=/home/bit/catkin_ws/install
+
+Name: morphology_filter
+Description: Description of morphology_filter
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmorphology_filter
+Requires: cv_bridge dynamic_reconfigure object_detection object_detection_2d

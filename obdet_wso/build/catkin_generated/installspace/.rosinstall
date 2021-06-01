@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ialab/obdet_ws/install/setup.sh

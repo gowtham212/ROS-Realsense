@@ -1,0 +1,8 @@
+prefix=/home/bit/catkin_ws/install
+
+Name: binary_detector
+Description: Description of binary_detector
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lbinary_detector
+Requires: cv_bridge dynamic_reconfigure geometry_msgs object_detection object_detection_2d object_detection_2d_msgs roscpp

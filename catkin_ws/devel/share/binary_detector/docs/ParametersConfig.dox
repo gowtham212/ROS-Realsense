@@ -1,0 +1,8 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~object_name" : \b [str] Name that is given to detected objects min: , default: , max: 
+- \b "~min_length_fraction" : \b [double] Only contours that have at least this fraction of (image-width + image-height) are detected min: 0.005, default: 0.05, max: 3.0
+- \b "~max_length_fraction" : \b [double] Only contours that have at most this fraction of (image-width + image-height) are detected min: 0.005, default: 0.4, max: 3.0
+

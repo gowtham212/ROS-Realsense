@@ -1,0 +1,18 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~match_distance_threshold" : \b [double] Only matches above this threshold are considered min: 0.1, default: 0.25, max: 100.0
+- \b "~ransac_reproj_threshold" : \b [double] Only points with a smaller reprojection-error are considered when finding the homography min: 0.5, default: 3.0, max: 100.0
+- \b "~object_name" : \b [str] Name that is given to detected objects min: , default: , max: 
+- \b "~hessian_threshold" : \b [double] Only local extrema with a Hessian-determinant above this will be kept as keypoints min: 2.0, default: 500.0, max: 10000.0
+- \b "~num_octaves" : \b [int] Number of pyramid octaves min: 1, default: 4, max: 20
+- \b "~num_octave_layers" : \b [int] Number of images in each octave min: 1, default: 3, max: 20
+- \b "~extended" : \b [bool] false: 64-element; true: 128-element descriptor min: False, default: False, max: True
+- \b "~upright" : \b [bool] true: don't compute orientation min: False, default: False, max: True
+- \b "~norm_type" : \b [int] Type for calculating norms min: 2, default: 4, max: 4
+- \b "~cross_check" : \b [bool] Cross-checking min: False, default: False, max: True
+- \b "~filename" : \b [str] Name of file for saving/loading target selection min: , default: , max: 
+- \b "~save_selection" : \b [bool] Save current area/target selection to file min: False, default: False, max: True
+- \b "~load_selection" : \b [bool] Load area/target selection from file min: False, default: False, max: True
+

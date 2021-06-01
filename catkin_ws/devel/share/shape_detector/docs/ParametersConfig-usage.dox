@@ -1,0 +1,15 @@
+\subsubsection usage Usage
+\verbatim
+<node name="shape_detector" pkg="shape_detector" type="shape_detector">
+  <param name="object_name" type="str" value="" />
+  <param name="shape" type="int" value="5" />
+  <param name="normal_distance_weight" type="double" value="0.1" />
+  <param name="distance_threshold" type="double" value="0.05" />
+  <param name="num_nearest_neighbors" type="int" value="50" />
+  <param name="max_iterations" type="int" value="100" />
+  <param name="optimize_coefficients" type="bool" value="True" />
+  <param name="min_radius" type="double" value="0.1" />
+  <param name="max_radius" type="double" value="0.2" />
+</node>
+\endverbatim
+

@@ -1,0 +1,9 @@
+-I/home/bit/catkin_ws/src/ros_object_recognition/src/feature_detector
+-I/home/bit/catkin_ws/build/ros_object_recognition/src/feature_detector
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="feature_detector"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/bit/catkin_ws/build/ros_object_recognition/src/feature_detector/include/feature_detector/moc_groupbox.cpp
+/home/bit/catkin_ws/src/ros_object_recognition/src/feature_detector/include/feature_detector/groupbox.h

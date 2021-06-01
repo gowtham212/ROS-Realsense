@@ -1,0 +1,8 @@
+prefix=/home/bit/catkin_ws/devel
+
+Name: objects2d_to_objects3d
+Description: Description of objects2d_to_objects3d
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

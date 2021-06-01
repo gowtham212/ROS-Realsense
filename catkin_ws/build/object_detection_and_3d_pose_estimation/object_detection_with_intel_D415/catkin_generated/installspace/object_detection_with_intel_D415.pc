@@ -1,0 +1,8 @@
+prefix=/home/bit/catkin_ws/install
+
+Name: object_detection_with_intel_D415
+Description: Description of object_detection_with_intel_D415
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: cv_bridge geometry_msgs roscpp rospy sensor_msgs std_msgs std_srvs

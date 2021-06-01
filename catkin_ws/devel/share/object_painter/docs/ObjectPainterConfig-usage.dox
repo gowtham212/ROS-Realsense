@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="object_painter" pkg="object_painter" type="object_painter">
+  <param name="max_age_s" type="double" value="0.3" />
+</node>
+\endverbatim
+

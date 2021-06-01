@@ -1,0 +1,19 @@
+\subsubsection usage Usage
+\verbatim
+<node name="feature_detector" pkg="feature_detector" type="feature_detector">
+  <param name="match_distance_threshold" type="double" value="0.25" />
+  <param name="ransac_reproj_threshold" type="double" value="3.0" />
+  <param name="object_name" type="str" value="" />
+  <param name="hessian_threshold" type="double" value="500.0" />
+  <param name="num_octaves" type="int" value="4" />
+  <param name="num_octave_layers" type="int" value="3" />
+  <param name="extended" type="bool" value="False" />
+  <param name="upright" type="bool" value="False" />
+  <param name="norm_type" type="int" value="4" />
+  <param name="cross_check" type="bool" value="False" />
+  <param name="filename" type="str" value="" />
+  <param name="save_selection" type="bool" value="False" />
+  <param name="load_selection" type="bool" value="False" />
+</node>
+\endverbatim
+

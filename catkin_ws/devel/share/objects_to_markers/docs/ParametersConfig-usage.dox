@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="objects_to_markers" pkg="objects_to_markers" type="objects_to_markers">
+  <param name="lifetime_s" type="double" value="0.4" />
+</node>
+\endverbatim
+

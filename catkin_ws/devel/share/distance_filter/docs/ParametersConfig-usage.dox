@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="distance_filter" pkg="distance_filter" type="distance_filter">
+  <param name="min_distance" type="double" value="1.0" />
+  <param name="max_distance" type="double" value="1.5" />
+</node>
+\endverbatim
+

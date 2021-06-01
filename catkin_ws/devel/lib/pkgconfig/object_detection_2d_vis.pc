@@ -1,0 +1,8 @@
+prefix=/home/bit/catkin_ws/devel
+
+Name: object_detection_2d_vis
+Description: Description of object_detection_2d_vis
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~min_distance" : \b [double] Points with a smaller distance are filtered out min: 0.0, default: 1.0, max: 10.0
+- \b "~max_distance" : \b [double] Points with a greater distance are filtered out min: 0.0, default: 1.5, max: 10.0
+
